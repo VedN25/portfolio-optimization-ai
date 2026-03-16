@@ -82,7 +82,7 @@ class DataLoader:
             adj_close = adj_close.dropna(axis=1, how='all')
             
             # Forward fill missing values
-            adj_close = adj_close.fillna(method='ffill')
+            adj_close = adj_close.ffill()
             
             # Drop remaining NaN rows
             adj_close = adj_close.dropna()
