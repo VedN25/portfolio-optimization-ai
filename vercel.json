@@ -5,11 +5,15 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/index.html"
+      "dest": "/frontend/public-demo.html"
     },
     {
-      "src": "/interactive_demo.html",
-      "dest": "/interactive_demo.html"
+      "src": "/demo",
+      "dest": "/frontend/public-demo.html"
+    },
+    {
+      "src": "/frontend",
+      "dest": "/frontend/public-demo.html"
     }
   ],
   "functions": {},
