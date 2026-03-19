@@ -8,6 +8,17 @@
 ![Render](https://img.shields.io/badge/Render-46E3B7.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## 🎯 **Live Demo**
+
+**🚀 Interactive Demo**: https://vedn25.github.io/portfolio-optimization-ai/
+
+**✨ Features**:
+- AI-powered portfolio optimization
+- Interactive charts and visualizations
+- Real-time risk analysis
+- Mobile-responsive design
+- No signup required
+
 ## 📊 Overview
 
 Portfolio Optimization AI is an end-to-end machine learning system that predicts asset returns and performs portfolio optimization using Modern Portfolio Theory (MPT). The system combines advanced ML models with quantitative finance techniques to generate optimal portfolio allocations.
