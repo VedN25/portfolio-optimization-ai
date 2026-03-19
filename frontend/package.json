@@ -1,18 +1,21 @@
 {
-  "name": "portfolio-optimization-ai-frontend",
+  "name": "portfolio-optimization-frontend",
   "version": "1.0.0",
-  "description": "Frontend for Portfolio Optimization AI",
-  "main": "public/index.html",
+  "type": "module",
   "scripts": {
-    "dev": "python -m http.server 3000",
-    "build": "echo 'Static build complete'",
-    "start": "python -m http.server 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "axios": "^1.6.0"
   },
-  "devDependencies": {},
-  "keywords": ["portfolio", "optimization", "ai", "frontend"],
-  "author": "VedN25",
-  "license": "MIT"
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
 }
