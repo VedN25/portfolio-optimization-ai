@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "portfolio-optimization-ai-frontend",
+  "builds": [],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/interactive_demo.html",
+      "dest": "/interactive_demo.html"
+    }
+  ],
+  "functions": {},
+  "buildCommand": null,
+  "outputDirectory": null,
+  "installCommand": null,
+  "framework": null
+}

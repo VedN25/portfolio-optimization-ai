@@ -1,0 +1,6 @@
+# Exclude everything except static assets
+*
+!public/
+!src/
+!package.json
+!vercel.json
