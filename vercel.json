@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "portfolio-optimization-ai",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "interactive_demo.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/interactive_demo.html",
+      "dest": "/interactive_demo.html"
+    }
+  ],
+  "functions": {}
+}

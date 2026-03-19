@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-optimization-ai",
+  "version": "1.0.0",
+  "description": "Interactive Portfolio Optimization AI Dashboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8080"
+  },
+  "keywords": ["portfolio", "optimization", "ai", "machine-learning", "finance"],
+  "author": "VedN25",
+  "license": "MIT"
+}
