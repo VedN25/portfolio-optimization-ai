@@ -1,0 +1,50 @@
+# Exclude all Python files and dependencies
+*.py
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Exclude requirements files
+requirements*.txt
+setup.py
+setup.cfg
+pyproject.toml
+
+# Exclude source directories
+src/
+api/
+dashboard/
+utils/
+tests/
+notebooks/
+data/
+deployment/
+
+# Only allow HTML files and static assets
+!index.html
+!interactive_demo.html
+!*.css
+!*.js
+!*.json
+!*.ico
+!*.png
+!*.jpg
+!*.gif
+!*.svg

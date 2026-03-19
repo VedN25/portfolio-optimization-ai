@@ -1,16 +1,7 @@
 {
   "version": 2,
   "name": "portfolio-optimization-ai",
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "interactive_demo.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "builds": [],
   "routes": [
     {
       "src": "/",
@@ -21,5 +12,9 @@
       "dest": "/interactive_demo.html"
     }
   ],
-  "functions": {}
+  "functions": {},
+  "buildCommand": null,
+  "outputDirectory": null,
+  "installCommand": null,
+  "framework": null
 }
